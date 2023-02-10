@@ -1,0 +1,19 @@
+.img{
+    height: 50rem;
+    width: 50rem;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.product h6{
+    margin-left: 5rem;
+}
+
+.product a{
+    text-decoration: none;
+}

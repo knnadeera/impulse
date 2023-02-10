@@ -11,11 +11,13 @@ function App() {
     <>
       <Header />
       <NavBar />
-      <Container className="app">
-        <Switch>
-          <Route path="/" component={HomeScreen} />
-        </Switch>
-      </Container>
+      <main className="py-3">
+        <Container className="app">
+          <Switch>
+            <Route path="/" component={HomeScreen} exact />
+          </Switch>
+        </Container>
+      </main>
     </>
   );
 }
