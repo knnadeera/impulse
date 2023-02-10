@@ -1,0 +1,19 @@
+.header {
+  background-color: rgba(100, 100, 100, 255);
+  color: white;
+  max-width: 100%;
+  height: 2rem;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+}
+
+.phone{
+  color: rgba(100, 100, 100, 255);
+  background-color: white;
+  border:1px solid white;
+  border-radius: 50%;
+  padding: 3px;
+}
