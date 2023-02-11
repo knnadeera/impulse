@@ -16,7 +16,7 @@ const Header = () => {
           </Col>
           <Col md={4}>
             <i className="fa-solid fa-envelope"></i>
-            <a href="hello@implusefaction.co.uk"> hello@implusefaction.co.uk</a>
+            <a href="mailto:hello@implusefaction.co.uk"> hello@implusefaction.co.uk</a>
           </Col>
           <Col>
             <p>

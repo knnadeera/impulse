@@ -1,0 +1,31 @@
+.footer {
+  color: white;
+  background-color: rgba(68, 68, 68, 255);
+  padding: 1rem 3rem;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.footer h4 {
+  color: white;
+}
+
+.icons{
+    margin-right: 1rem;
+    padding: .5rem;
+    background-color: white;
+    color: rgba(110,110,110,255);
+    border-radius: 50%;
+}
+
+.paypal_icons{
+    margin: -1rem;
+}

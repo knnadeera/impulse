@@ -7,6 +7,7 @@ import Header from "./Components/Header";
 import NavBar from "./Components/Navbar";
 import Brands from "./Components/Brands";
 import NewsLetter from "./Components/NewsLetter";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
         </Container>
       </main>
       <Brands/>
-      <NewsLetter/>
+      <NewsLetter />
+      <Footer />
     </>
   );
 }
