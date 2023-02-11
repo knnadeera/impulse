@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/impulse/static/css/main.ea76a032.css",
+    "main.js": "/impulse/static/js/main.caf81b40.js",
+    "static/js/787.5650c614.chunk.js": "/impulse/static/js/787.5650c614.chunk.js",
+    "static/media/homeBanner.png": "/impulse/static/media/homeBanner.ca5afeec6ca624e3186b.png",
+    "static/media/background.png": "/impulse/static/media/background.dfd6ba0060b6d6e2e207.png",
+    "static/media/heelsBanner.png": "/impulse/static/media/heelsBanner.e0ffed69b6b8aeee67f9.png",
+    "static/media/sandalsBanner.jpg": "/impulse/static/media/sandalsBanner.876d16de3c3b6702d2fe.jpg",
+    "static/media/product7.png": "/impulse/static/media/product7.cb6c5eb6d85f1e136a83.png",
+    "static/media/product8.png": "/impulse/static/media/product8.a34a8d76e500cc34a573.png",
+    "static/media/product5.png": "/impulse/static/media/product5.cc3324e8912108d40c58.png",
+    "static/media/product2.jpg": "/impulse/static/media/product2.b5ce4078c58ad10f4816.jpg",
+    "static/media/product6.png": "/impulse/static/media/product6.0d4febd093290782de8f.png",
+    "static/media/product1.jpg": "/impulse/static/media/product1.e4dc309de18449af843d.jpg",
+    "static/media/paypal-logo.png": "/impulse/static/media/paypal-logo.599813786918a0d051c1.png",
+    "static/media/brand3.png": "/impulse/static/media/brand3.54a8f7d0b1723919db69.png",
+    "static/media/brand5.png": "/impulse/static/media/brand5.f9040a236babd74860a1.png",
+    "static/media/brand4.png": "/impulse/static/media/brand4.838d556d2ba0305bcd46.png",
+    "static/media/brand1.png": "/impulse/static/media/brand1.f1f462d1f305a5659120.png",
+    "static/media/brand2.png": "/impulse/static/media/brand2.a4699a34818bd7517700.png",
+    "static/media/product4.jpg": "/impulse/static/media/product4.1f291a3f35e5c7943894.jpg",
+    "static/media/product3.jpg": "/impulse/static/media/product3.41392956bc6c74158424.jpg",
+    "static/media/revicons.eot": "/impulse/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/impulse/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/impulse/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/impulse/index.html",
+    "main.ea76a032.css.map": "/impulse/static/css/main.ea76a032.css.map",
+    "main.caf81b40.js.map": "/impulse/static/js/main.caf81b40.js.map",
+    "787.5650c614.chunk.js.map": "/impulse/static/js/787.5650c614.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea76a032.css",
+    "static/js/main.caf81b40.js"
+  ]
+}
