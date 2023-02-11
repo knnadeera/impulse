@@ -13,8 +13,8 @@ const NavBar = () => {
           <LinkContainer to="/">
             <Navbar.Brand className="logo">
               <Row>
-                <img src={Impulse} />
-                <img src={Framlingham} />
+                <img src={Impulse} alt='impulse' />
+                <img src={Framlingham} alt='framlingham'/>
               </Row>
             </Navbar.Brand>
           </LinkContainer>
@@ -28,10 +28,10 @@ const NavBar = () => {
                 <Nav.Link>WOMENSWEAR</Nav.Link>
               </LinkContainer>
               <NavDropdown title="Shoes">
-                <LinkContainer to="/heels">
+                <LinkContainer to="/shoes/heels">
                   <NavDropdown.Item>HEELS</NavDropdown.Item>
                 </LinkContainer>
-                <LinkContainer to="/sandals">
+                <LinkContainer to="/shoes/sandals">
                   <NavDropdown.Item>SANDALS</NavDropdown.Item>
                 </LinkContainer>
               </NavDropdown>

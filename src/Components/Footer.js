@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import paypalIcon from '../assets/paypal-logo.png'
+import paypalIcon from "../assets/paypal-logo.png";
 import "./Footer.css";
 
 const Footer = () => {
@@ -17,7 +17,10 @@ const Footer = () => {
           </p>
           <p>
             <i className="fa-solid fa-envelope"></i>
-            <a href="mailto:hello@implusefaction.co.uk"> hello@implusefaction.co.uk</a>
+            <a href="mailto:hello@implusefaction.co.uk">
+              {" "}
+              hello@implusefaction.co.uk
+            </a>
           </p>
           <p>
             <i className="fa-solid fa-location-dot"></i> 3-4 Market Hill,
@@ -42,14 +45,14 @@ const Footer = () => {
               <br />
               No Paypal account required.
             </p>
-            <img src={paypalIcon} className='paypal_icons'/>
+            <img src={paypalIcon} alt='paypalIcon' className="paypal_icons" />
           </Row>
         </Col>
         <Col md={3}>
           <Row>
             <h4>Follow us</h4>
           </Row>
-          <div >
+          <div>
             <i className="fa-brands fa-facebook-f icons"></i>
             <i className="fa-brands fa-twitter icons"></i>
             <i className="fa-brands fa-linkedin-in icons"></i>
@@ -57,6 +60,7 @@ const Footer = () => {
           </div>
         </Col>
       </Row>
+      <p className="copyrights">&copy; All rights reserved.Company 12345678</p>
     </>
   );
 };

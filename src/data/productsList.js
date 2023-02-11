@@ -15,7 +15,7 @@ const productsList = [
     description:
       "New for summer, pretty jewelled peep toe sandal CLARISSA is the occasion shoe of the season. In rich cream metallic brocade, trimmed with shimmering gold, embellished with a pearl and diamantÃ© trim, and set on our classic slim heel, Ruby Shoo CLARISSA matches perfectly to bag style TOULOUSEULOUSE",
     brand: "Brand",
-    category: "heels",
+    category: "sandals",
     price: 50,
     size: [2, 3, 4, 5, 6, 7],
     countInStock: 5,
@@ -29,7 +29,7 @@ const productsList = [
     description:
       "New for summer, pretty jewelled peep toe sandal CLARISSA is the occasion shoe of the season. In rich cream metallic brocade, trimmed with shimmering gold, embellished with a pearl and diamantÃ© trim, and set on our classic slim heel, Ruby Shoo CLARISSA matches perfectly to bag style TOULOUSEULOUSE",
     brand: "Brand",
-    category: "heels",
+    category: "sandals",
     price: 60,
     size: [2, 3, 4, 5, 6, 7],
     countInStock: 5,
@@ -127,7 +127,7 @@ const productsList = [
     description:
       "New for summer, pretty jewelled peep toe sandal CLARISSA is the occasion shoe of the season. In rich cream metallic brocade, trimmed with shimmering gold, embellished with a pearl and diamantÃ© trim, and set on our classic slim heel, Ruby Shoo CLARISSA matches perfectly to bag style TOULOUSEULOUSE",
     brand: "Brand",
-    category: "heels",
+    category: "sandals",
     price: 50,
     size: [2, 3, 4, 5, 6, 7],
     countInStock: 5,
@@ -141,7 +141,7 @@ const productsList = [
     description:
       "New for summer, pretty jewelled peep toe sandal CLARISSA is the occasion shoe of the season. In rich cream metallic brocade, trimmed with shimmering gold, embellished with a pearl and diamantÃ© trim, and set on our classic slim heel, Ruby Shoo CLARISSA matches perfectly to bag style TOULOUSEULOUSE",
     brand: "Brand",
-    category: "heels",
+    category: "sandals",
     price: 60,
     size: [2, 3, 4, 5, 6, 7],
     countInStock: 5,

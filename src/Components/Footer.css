@@ -2,6 +2,7 @@
   color: white;
   background-color: rgba(68, 68, 68, 255);
   padding: 1rem 3rem;
+  margin: 0;
 }
 
 .footer a {
@@ -28,4 +29,11 @@
 
 .paypal_icons{
     margin: -1rem;
+}
+
+.copyrights{
+    color: white;
+    background-color: black;
+    margin: 0;
+    padding:0 4rem;
 }

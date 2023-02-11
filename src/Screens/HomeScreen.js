@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import Banner from "../Components/Banner";
+import banner from "../assets/homeBanner.png";
 import Product from "../Components/Product";
 import productsList from "../data/productsList";
 import Carousel from "react-multi-carousel";
@@ -50,12 +50,12 @@ const HomeScreen = () => {
 
   return (
     <>
-      <Banner />
+      <img src={banner} alt='banner' className='homeBanner'/>
       <Row>
         <h3 className="product">Latest Products</h3>
         <Carousel responsive={responsive}>
           {productsList.map((product) => (
-            <Col key={product.id}>
+            <Col key={product.id} >
               <Product product={product} />
             </Col>
           ))}
