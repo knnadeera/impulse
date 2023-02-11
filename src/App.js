@@ -5,6 +5,8 @@ import "./App.css";
 import HomeScreen from "./Screens/HomeScreen";
 import Header from "./Components/Header";
 import NavBar from "./Components/Navbar";
+import Brands from "./Components/Brands";
+import NewsLetter from "./Components/NewsLetter";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
           </Switch>
         </Container>
       </main>
+      <Brands/>
+      <NewsLetter/>
     </>
   );
 }

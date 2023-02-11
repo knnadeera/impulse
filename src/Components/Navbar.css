@@ -1,24 +1,29 @@
-.logo{
-    cursor: pointer;
-    width: 12rem;
+.logo {
+  cursor: pointer;
+  width: 12rem;
 }
 
-.nav{
-    margin-left: auto;
+.nav {
+  margin-left: auto;
 }
 
-.user{
-    color: white;
-    background-color: gray;
-    border: 1px solid;
-    padding: 6px;
-    border-radius: 50%;
+.user {
+  color: white;
+  background-color: gray;
+  border: 1px solid;
+  padding: 6px;
+  border-radius: 50%;
 }
 
-.cart{
-    color: white;
-    background-color: gray;
-    border: 1px solid;
-    padding: 6px;
-    border-radius: 50%;
+.cart {
+  color: white;
+  background-color: gray;
+  border: 1px solid;
+  padding: 6px;
+  border-radius: 50%;
 }
+
+.dropdown {
+    width: 40px;
+}
+

@@ -23,8 +23,10 @@ const NavBar = () => {
             <Nav className="ml-auto nav">
               <LinkContainer to="/">
                 <Nav.Link>Home</Nav.Link>
-              </LinkContainer><LinkContainer to='womenswear'>
-              <Nav.Link >WOMENSWEAR</Nav.Link></LinkContainer>
+              </LinkContainer>
+              <LinkContainer to="womenswear">
+                <Nav.Link>WOMENSWEAR</Nav.Link>
+              </LinkContainer>
               <NavDropdown title="Shoes">
                 <LinkContainer to="/heels">
                   <NavDropdown.Item>HEELS</NavDropdown.Item>
@@ -43,11 +45,11 @@ const NavBar = () => {
                 <Nav.Link>CONTACT US</Nav.Link>
               </LinkContainer>
               <LinkContainer to="/login">
-                  <Nav.Link>
-                    <i className="fas fa-user user"></i>
-                  </Nav.Link>
-                </LinkContainer>
-                <LinkContainer to="/cart">
+                <Nav.Link>
+                  <i className="fas fa-user user"></i>
+                </Nav.Link>
+              </LinkContainer>
+              <LinkContainer to="/cart">
                 <Nav.Link>
                   <i className="fas fa-shopping-cart cart"></i>
                 </Nav.Link>
