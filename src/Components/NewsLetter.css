@@ -8,12 +8,12 @@
   margin: 0;
 }
 
-.newsletter h6 {
+.newsletter_h6 {
   color: white;
   margin-top: 8px;
 }
 
-.newsletter input {
+.newsletter_input {
   border: none;
   padding: 8px;
   width: 20rem;

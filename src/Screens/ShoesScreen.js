@@ -4,7 +4,6 @@ import Product from "../Components/Product";
 import productsList from "../data/productsList";
 import heelsBanner from "../assets/heelsBanner.png";
 import sandalsBanner from "../assets/sandalsBanner.jpg";
-import "./ShoesScreen.css";
 
 const ShoesScreen = ({ location }) => {
   const [items, setItems] = useState(productsList);

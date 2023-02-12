@@ -23,7 +23,7 @@ const SimilarProduct = ({ category }) => {
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3,
+      items: 4,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -36,9 +36,9 @@ const SimilarProduct = ({ category }) => {
   };
 
   return (
-    <div className="similar">
+    <div >
       <Row>
-        <h4>Similar Product</h4>
+        <h4 className="similar">Similar Product</h4>
         <Carousel responsive={responsive}>
           {similarProduct.map((product) => (
             <Row key={product.id}>

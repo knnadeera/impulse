@@ -24,7 +24,7 @@ const Product = ({ product }) => {
               <h4>{product.name}</h4>
             </Card.Title>
           </Link>
-          <h6>£{price}</h6>
+          <h6 className="product_h6">£{price}</h6>
         </Container>
       </Card.Body>
     </div>

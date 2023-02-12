@@ -1,3 +1,5 @@
-/* .similar {
+.similar {
     display: flex;
-} */
+    justify-content: center;
+    color: rgb(192, 192, 192);
+}

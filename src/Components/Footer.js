@@ -9,7 +9,7 @@ const Footer = () => {
     <>
       <Row className="footer">
         <Col md={3}>
-          <h4>Contact</h4>
+          <h4 className="footer_h4">Contact</h4>
           <p>
             <i className="fa-solid fa-phone phone"></i>
             {"  "}
@@ -29,7 +29,7 @@ const Footer = () => {
         </Col>
         <Col md={3}>
           <Row>
-            <h4>Useful links</h4>
+            <h4 className="footer_h4">Useful links</h4>
             <Link to="/profile">My Account</Link>
             <Link to="/contactus">Contact Us</Link>
             <Link to="refunds&returns">Refunds and Returns</Link>
@@ -39,7 +39,7 @@ const Footer = () => {
         </Col>
         <Col md={3}>
           <Row>
-            <h4>Secure shopping</h4>
+            <h4 className="footer_h4">Secure shopping</h4>
             <p>
               Secure payment on all major cards.
               <br />
@@ -50,7 +50,7 @@ const Footer = () => {
         </Col>
         <Col md={3}>
           <Row>
-            <h4>Follow us</h4>
+            <h4 className="footer_h4">Follow us</h4>
           </Row>
           <div>
             <i className="fa-brands fa-facebook-f icons"></i>
