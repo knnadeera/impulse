@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { Button, Col, Container, Form } from "react-bootstrap";
 import "./StylingServiceScreen.css";
 
 const StylingServiceScreen = () => {
@@ -55,6 +55,44 @@ const StylingServiceScreen = () => {
             </h5>
           </Col>
         </Container>
+      </div>
+      <div className="stylingService">
+        <h1 className="stylingService_h1">Interested?</h1>
+        <h4 className="stylingService_h3">Enquire here</h4>
+        <h5>
+          Simply fill a few details below and we will call you back to arrange a
+          date:
+        </h5>
+        <Form className="stylingService_form">
+          <Form.Group className="stylingService_form_group">
+            <Col md={3}>
+              <Form.Label htmlFor="name">NAME:</Form.Label>
+            </Col>
+            <Form.Control
+              type="text"
+              className="stylingService_form_input"
+            ></Form.Control>
+          </Form.Group>
+          <Form.Group className="stylingService_form_group">
+            <Col md={3}>
+              <Form.Label htmlFor="Phone">PHONE:</Form.Label>
+            </Col>
+            <Form.Control
+              type="number"
+              className="stylingService_form_input"
+            ></Form.Control>
+          </Form.Group>
+          <Form.Group className="stylingService_form_group">
+            <Col md={3}>
+              <Form.Label htmlFor="email">EMAIL</Form.Label>
+            </Col>
+            <Form.Control
+              type="email"
+              className="stylingService_form_input"
+            ></Form.Control>
+          </Form.Group>
+          <Button className="stylingService_form_btn">send</Button>
+        </Form>
       </div>
     </div>
   );
