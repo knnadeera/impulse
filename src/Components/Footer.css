@@ -1,4 +1,6 @@
 .footer {
+  display: flex;
+  justify-content: center;
   color: white;
   background-color: rgba(68, 68, 68, 255);
   padding: 1rem 3rem;
@@ -19,21 +21,23 @@
   color: white;
 }
 
-.icons{
-    margin-right: 1rem;
-    padding: .5rem;
-    background-color: white;
-    color: rgba(110,110,110,255);
-    border-radius: 50%;
+.icons {
+  margin-right: 1rem;
+  padding: 0.5rem;
+  background-color: white;
+  color: rgba(110, 110, 110, 255);
+  border-radius: 50%;
 }
 
-.paypal_icons{
-    margin: -1rem;
+.paypal_icons {
+  margin: -1rem;
 }
 
-.copyrights{
-    color: white;
-    background-color: black;
-    margin: 0;
-    padding:0 4rem;
+.copyrights {
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: black;
+  margin: 0;
+  padding: 0 4rem;
 }

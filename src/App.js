@@ -9,6 +9,7 @@ import NewsLetter from "./Components/NewsLetter";
 import Footer from "./Components/Footer";
 import ShoesScreen from "./Screens/ShoesScreen";
 import ProductScreen from "./Screens/ProductScreen";
+import StylingServiceScreen from "./Screens/StylingServiceScreen";
 
 function App() {
   return (
@@ -18,13 +19,14 @@ function App() {
       <main className="py-3">
         <Container className="app">
           <Switch>
-            <Route path="/" component={HomeScreen} exact />
-            <Route path='/shoes' component={ShoesScreen}/>
-            <Route path='/product/:id' component={ProductScreen}/>
+            <Route path="/impulse" component={HomeScreen} exact />
+            <Route path="/shoes" component={ShoesScreen} />
+            <Route path="/product/:id" component={ProductScreen} />
+            <Route path="/styling_service" component={StylingServiceScreen} />
           </Switch>
         </Container>
       </main>
-      <Brands/>
+      <Brands />
       <NewsLetter />
       <Footer />
     </>

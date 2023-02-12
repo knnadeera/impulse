@@ -50,12 +50,12 @@ const HomeScreen = () => {
 
   return (
     <>
-      <img src={banner} alt='banner' className='homeBanner'/>
+      <img src={banner} width="100%" alt="banner" />
       <Row>
         <h3 className="product">Latest Products</h3>
         <Carousel responsive={responsive}>
           {productsList.map((product) => (
-            <Col key={product.id} >
+            <Col key={product.id}>
               <Product product={product} />
             </Col>
           ))}

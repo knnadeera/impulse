@@ -45,7 +45,7 @@ const Footer = () => {
               <br />
               No Paypal account required.
             </p>
-            <img src={paypalIcon} alt='paypalIcon' className="paypal_icons" />
+            <img src={paypalIcon} alt="paypalIcon" className="paypal_icons" />
           </Row>
         </Col>
         <Col md={3}>

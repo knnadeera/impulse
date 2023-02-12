@@ -10,18 +10,18 @@ const NavBar = () => {
     <header>
       <Navbar bg="light" variant="light" expand="lg" collapseOnSelect>
         <Container>
-          <LinkContainer to="/">
+          <LinkContainer to="/impulse">
             <Navbar.Brand className="logo">
               <Row>
-                <img src={Impulse} alt='impulse' />
-                <img src={Framlingham} alt='framlingham'/>
+                <img src={Impulse} alt="impulse" />
+                <img src={Framlingham} alt="framlingham" />
               </Row>
             </Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto nav">
-              <LinkContainer to="/">
+              <LinkContainer to="/impulse">
                 <Nav.Link>Home</Nav.Link>
               </LinkContainer>
               <LinkContainer to="womenswear">

@@ -32,7 +32,7 @@ const ShoesScreen = ({ location }) => {
 
   return (
     <div className="shoesScreen">
-      <img src={banner} alt='banner' className="shoesBanner" />
+      <img src={banner} width='100%' alt='banner' />
       <Container>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
