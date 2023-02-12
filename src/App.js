@@ -10,6 +10,7 @@ import Footer from "./Components/Footer";
 import ShoesScreen from "./Screens/ShoesScreen";
 import ProductScreen from "./Screens/ProductScreen";
 import StylingServiceScreen from "./Screens/StylingServiceScreen";
+import ContactUsScreen from "./Screens/ContactUsScreen";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path="/shoes" component={ShoesScreen} />
             <Route path="/product/:id" component={ProductScreen} />
             <Route path="/styling_service" component={StylingServiceScreen} />
+            <Route path='/contact_us' component={ContactUsScreen}/>
           </Switch>
         </Container>
       </main>
