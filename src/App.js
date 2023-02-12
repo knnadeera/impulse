@@ -8,6 +8,7 @@ import Brands from "./Components/Brands";
 import NewsLetter from "./Components/NewsLetter";
 import Footer from "./Components/Footer";
 import ShoesScreen from "./Screens/ShoesScreen";
+import ProductScreen from "./Screens/ProductScreen";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Switch>
             <Route path="/" component={HomeScreen} exact />
             <Route path='/shoes' component={ShoesScreen}/>
+            <Route path='/product/:id' component={ProductScreen}/>
           </Switch>
         </Container>
       </main>

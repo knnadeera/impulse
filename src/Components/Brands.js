@@ -9,11 +9,11 @@ import './Brands.css'
 const Brands = () => {
   return (
     <div className='brands'>
-        <img src={brand1}/>
-        <img src={brand2}/>
-        <img src={brand3}/>
-        <img src={brand4}/>
-        <img src={brand5}/>
+        <img src={brand1} alt='brand'/>
+        <img src={brand2} alt='brand'/>
+        <img src={brand3} alt='brand'/>
+        <img src={brand4} alt='brand'/>
+        <img src={brand5} alt='brand'/>
     </div>
   )
 }

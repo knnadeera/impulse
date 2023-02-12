@@ -1,0 +1,36 @@
+.productDetails {
+  display: flex;
+  justify-content: center;
+  margin-left: 1rem;
+}
+
+.productDetails_details {
+  display: flex;
+  flex-direction: column;
+  max-width: 30rem;
+  margin: 0 1rem 0 3rem;
+}
+
+.option {
+  border: 1px solid #dad7d7;
+  margin: 0.1rem 0 0.5rem 0;
+  border-radius: 5px;
+  height: 3rem;
+}
+
+.productDetails Button {
+  width: 15rem;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+}
+
+.gallery_img {
+  width: 100px;
+}
+
+.selection {
+  align-items: center;
+}

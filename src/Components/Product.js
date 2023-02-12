@@ -8,9 +8,9 @@ const Product = ({ product }) => {
   return (
     <div className="product">
       <Card className="my-3 p-3">
-        <Link to={`${product.id}`}>
+        <Link to={`/product/${product.id}`}>
           <Card.Img
-            src={product.image}
+            src={product.image[0]}
             height="200"
             width="200"
             variant="top"
@@ -21,7 +21,7 @@ const Product = ({ product }) => {
         <Container>
           <Link to={`/product/${product.id}`}>
             <Card.Title as="div">
-              <h3>{product.name}</h3>
+              <h4>{product.name}</h4>
             </Card.Title>
           </Link>
           <h6>£{price}</h6>
