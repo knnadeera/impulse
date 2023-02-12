@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import ProductDetails from "../Components/ProductDetails";
+import SimilarProduct from "../Components/SimilarProduct";
 import productsList from "../data/productsList";
 
 const ProductScreen = ({ location }) => {
@@ -23,6 +24,11 @@ const ProductScreen = ({ location }) => {
           <div key={`product${product.id}`}>
             <ProductDetails product={product} />
           </div>
+        </div>
+      ))}
+      {product.map((product) => (
+        <div key={`similar${product.id}`}>
+          <SimilarProduct category={product.category} />
         </div>
       ))}
     </>
