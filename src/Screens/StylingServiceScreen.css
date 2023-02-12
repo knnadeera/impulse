@@ -2,18 +2,26 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 3rem 2rem;
+  margin: 3rem 50;
+}
+
+.stylingService_banner {
+  background-image: url(../assets/stylingServiceBanner.png);
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  max-width: 1400px;
 }
 
 .stylingService_title {
-  position: absolute;
   color: white;
-  margin-top: 5%;
 }
 
-.stylingService_cont{
-    display: flex;
-    justify-content: center;
+.stylingService_cont {
+  display: flex;
+  justify-content: center;
 }
 
 .stylingService_h1 {
@@ -36,4 +44,28 @@
   width: 70%;
   text-align: center;
   margin: 1rem 0;
+}
+
+.stylingService_icons {
+  display: flex;
+  justify-content: space-around;
+  font-size: 300%;
+  color: white;
+}
+
+.stylingService_banner2 {
+  background-image: url(../assets/stylingServiceBanner2.png);
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  max-width: 1400px;
+}
+
+.stylingService_i {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }

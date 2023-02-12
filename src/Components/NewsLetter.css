@@ -35,3 +35,16 @@
   border: 1px solid;
   margin-left: 10px;
 }
+
+@media (max-width: 768px) {
+  .newsletter{
+    flex-direction: column;
+  }
+  
+}
+
+@media (max-width: 425px) {
+  .newsletter_input{
+    width: 200px;
+  
+}}
