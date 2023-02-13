@@ -6,7 +6,13 @@ import "./ProductDetails.css";
 
 const ProductDetails = ({ product }) => {
   const [image, setImage] = useState(product.image[0]);
+  const [size, setSize] = useState();
+  const [qty, setQty] = useState(1);
   const price = product.price.toFixed(2);
+
+  console.log(size);
+  console.log(qty);
+  const addToCartHandler = () => {};
 
   return (
     <>
@@ -34,7 +40,7 @@ const ProductDetails = ({ product }) => {
                     <img
                       src={i}
                       alt={i}
-                      width='100px'
+                      width="100px"
                       onClick={() => {
                         setImage(i);
                       }}
@@ -43,7 +49,6 @@ const ProductDetails = ({ product }) => {
                 ))}
               </div>
             </Col>
-
             <Col md={6}>
               <Row>
                 <div className="productDetails_details">
@@ -54,12 +59,30 @@ const ProductDetails = ({ product }) => {
                   <Row className="selection">
                     <Col md={3}>Select size:</Col>
                     <Col md={5}>
-                      <Form.Control className="option" as="select">
-                        {product.size.map((size) => (
-                          <option key={size} value={size}>
-                            UK {size}
+                      <Form.Control
+                        className="option"
+                        as="select"
+                        value={size || ""}
+                        onChange={(e) => {
+                          setSize(e.target.value);
+                        }}
+                      >
+                        {product.size.length !== 0 ? (
+                          <>
+                            <option disabled value="">
+                              Select Size
+                            </option>
+                            {product.size.map((size) => (
+                              <option key={size} value={size}>
+                                UK {size}
+                              </option>
+                            ))}
+                          </>
+                        ) : (
+                          <option disabled value="">
+                            No sizes available
                           </option>
-                        ))}
+                        )}
                       </Form.Control>
                     </Col>
                   </Row>
@@ -70,6 +93,9 @@ const ProductDetails = ({ product }) => {
                         className="option"
                         as="select"
                         value={product.qty}
+                        onChange={(e) => {
+                          setQty(e.target.value);
+                        }}
                       >
                         {[...Array(product.countInStock).keys()].map((x) => (
                           <option key={x + 1} value={x + 1}>
@@ -79,7 +105,10 @@ const ProductDetails = ({ product }) => {
                       </Form.Control>
                     </Col>
                   </Row>
-                  <Button disabled={product.countInStock === 0}>
+                  <Button
+                    disabled={product.countInStock === 0}
+                    onClick={addToCartHandler}
+                  >
                     add to basket
                   </Button>
                   <Col>

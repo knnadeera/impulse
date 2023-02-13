@@ -17,7 +17,7 @@ const Footer = () => {
           </p>
           <p>
             <i className="fa-solid fa-envelope"></i>
-            <a href="mailto:hello@implusefaction.co.uk">
+            <a href="mailto:hello@implusefaction.co.uk" className="mail">
               {" "}
               hello@implusefaction.co.uk
             </a>

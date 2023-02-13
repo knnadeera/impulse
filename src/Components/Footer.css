@@ -41,3 +41,21 @@
   margin: 0;
   padding: 0 4rem;
 }
+
+@media (max-width: 769px) {
+  .mail{
+    font-size: x-small;
+  }
+  .icons {
+    size: 10px;
+  }
+}
+
+@media (max-width: 426px) {
+  .mail{
+    font-size: medium;
+  }
+  .icons {
+    size: 10px;
+  }
+}

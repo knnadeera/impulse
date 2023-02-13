@@ -34,3 +34,30 @@
 .selection {
   align-items: center;
 }
+
+@media (max-width: 425px) {
+  .productDetails {
+    flex-direction: column;
+    margin-left: 0;
+  }
+  .gallery_img {
+    width: 90px;
+  }
+  .productDetails_details {
+    max-width: 30rem;
+    margin: 0;
+  }
+}
+
+@media (max-width: 375px) {
+  
+  .gallery_img {
+    display: flex;
+    flex-direction: column;
+    width: 60px;
+  }
+  .productDetails_details {
+    max-width: 30rem;
+    margin: 0;
+  }
+}

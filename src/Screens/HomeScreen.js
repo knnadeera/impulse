@@ -19,7 +19,7 @@ const HomeScreen = () => {
       items: 3,
     },
     tablet: {
-      breakpoint: { max: 1024, min: 464 },
+      breakpoint: { max: 769, min: 464 },
       items: 2,
     },
     mobile: {
@@ -39,7 +39,7 @@ const HomeScreen = () => {
       items: 4,
     },
     tablet: {
-      breakpoint: { max: 1024, min: 464 },
+      breakpoint: { max: 769, min: 464 },
       items: 2,
     },
     mobile: {
