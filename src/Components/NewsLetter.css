@@ -25,6 +25,7 @@
   border: 1px solid gray;
   border-radius: 5px;
   width: 2.5rem;
+  margin-right: 6px;
 }
 
 .newsIcon {
@@ -35,7 +36,6 @@
   border-radius: 5px;
   margin-left: 10px;
   background-color: white;
-  width: 20%;
 }
 
 @media (max-width: 768px) {
@@ -45,7 +45,15 @@
 }
 
 @media (max-width: 425px) {
+  .newsletter {
+    align-items: center;
+  }
   .newsletter_input {
+    align-self: flex-start;
     width: 200px;
+  }
+
+  .newsletter_h6 {
+    font-size: xx-small;
   }
 }

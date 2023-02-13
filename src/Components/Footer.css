@@ -3,7 +3,7 @@
   justify-content: center;
   color: white;
   background-color: rgba(68, 68, 68, 255);
-  padding: 2.5rem 3rem;
+  padding: 0 5rem 2rem 5rem;
   margin: 0;
 }
 
@@ -19,13 +19,14 @@
 
 .footer_h4 {
   color: white;
+  margin-top: 2rem;
 }
 
 .icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: .3rem;
+  margin-right: 0.3rem;
   background-color: white;
   color: rgba(110, 110, 110, 255);
   border-radius: 50%;
@@ -33,12 +34,12 @@
   height: 2rem;
 }
 
-.icons{
+.icons {
   display: flex;
 }
 
 .paypal_icons {
-  margin: -1rem -2rem;
+  margin: -1rem -1rem;
 }
 
 .copyrights {
@@ -47,23 +48,32 @@
   color: white;
   background-color: black;
   margin: 0;
-  padding: .5rem 6rem;
+  padding: 0.5rem 6rem;
 }
 
 @media (max-width: 769px) {
-  .mail{
+  .mail {
     font-size: x-small;
   }
   .icons {
     size: 10px;
   }
+  .paypal_icons {
+    margin: -1rem -1rem;
+  }
 }
 
 @media (max-width: 426px) {
-  .mail{
+  .mail {
     font-size: medium;
   }
   .icons {
     size: 10px;
+  }
+  .copyrights {
+    padding: 0.5rem 0;
+  }
+  .paypal_icons {
+    margin: -1rem -1rem;
   }
 }

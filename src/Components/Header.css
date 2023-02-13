@@ -13,15 +13,24 @@
   text-decoration: none;
 }
 
-.header p{
-  width:300px;
+.header p {
+  width: 300px;
 }
+
 .phone {
   color: rgba(100, 100, 100, 255);
   background-color: white;
   border: 1px solid white;
   border-radius: 50%;
   padding: 3px;
-  
 }
 
+@media (max-width: 425px) {
+  .header {
+    align-items: center;
+    justify-content: space-around;
+    height: 5rem;
+    text-align: center;
+  }
+
+}
