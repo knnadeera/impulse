@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/impulse/static/css/main.07b65d69.css",
+    "main.css": "/impulse/static/css/main.782d6e0a.css",
     "main.js": "/impulse/static/js/main.eb98e3f5.js",
     "static/js/787.5650c614.chunk.js": "/impulse/static/js/787.5650c614.chunk.js",
     "static/media/stylingServiceBanner2.png": "/impulse/static/media/stylingServiceBanner2.db594d270c0a01afac62.png",
@@ -30,12 +30,12 @@
     "static/media/revicons.ttf": "/impulse/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/impulse/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/impulse/index.html",
-    "main.07b65d69.css.map": "/impulse/static/css/main.07b65d69.css.map",
+    "main.782d6e0a.css.map": "/impulse/static/css/main.782d6e0a.css.map",
     "main.eb98e3f5.js.map": "/impulse/static/js/main.eb98e3f5.js.map",
     "787.5650c614.chunk.js.map": "/impulse/static/js/787.5650c614.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.07b65d69.css",
+    "static/css/main.782d6e0a.css",
     "static/js/main.eb98e3f5.js"
   ]
 }
