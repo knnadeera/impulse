@@ -106,12 +106,13 @@ const ProductDetails = ({ product }) => {
                     </Col>
                   </Row>
                   <Button
+                  className="mt-2"
                     disabled={product.countInStock === 0}
                     onClick={addToCartHandler}
                   >
                     add to basket
                   </Button>
-                  <Col>
+                  <Col className="mt-3">
                     Can't see your size -{" "}
                     <Link to="/contact_us">contact us</Link> we may be able to
                     order them for you

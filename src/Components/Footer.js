@@ -11,7 +11,7 @@ const Footer = () => {
         <Col md={3}>
           <h4 className="footer_h4">Contact</h4>
           <p>
-            <i className="fa-solid fa-phone phone"></i>
+            <i className="fa-solid fa-phone"></i>
             {"  "}
             01728 720184
           </p>

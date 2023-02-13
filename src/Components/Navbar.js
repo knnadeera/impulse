@@ -27,7 +27,7 @@ const NavBar = () => {
               <LinkContainer to="womenswear">
                 <Nav.Link>WOMENSWEAR</Nav.Link>
               </LinkContainer>
-              <NavDropdown title="Shoes">
+              <NavDropdown title="Shoes" className="me-6">
                 <LinkContainer to="/shoes/heels">
                   <NavDropdown.Item>HEELS</NavDropdown.Item>
                 </LinkContainer>
@@ -47,13 +47,15 @@ const NavBar = () => {
               <LinkContainer to="/login">
                 <Nav.Link>
                   <div className="user">
-                  <i className="fas fa-user"></i></div>
+                    <i className="fas fa-user"></i>
+                  </div>
                 </Nav.Link>
               </LinkContainer>
               <LinkContainer to="/cart">
-                <Nav.Link >
+                <Nav.Link>
                   <div className="cart">
-                  <i className="fas fa-shopping-cart"></i></div>
+                    <i className="fas fa-shopping-cart"></i>
+                  </div>
                 </Nav.Link>
               </LinkContainer>
             </Nav>

@@ -10,7 +10,7 @@ const NewsLetter = () => {
       <div className="input">
         <input type="email" className="newsletter_input" />
         <button>
-          <i class="fa-sharp fa-solid fa-play newsIcon"></i>
+          <i className="fa-sharp fa-solid fa-play newsIcon"></i>
         </button>
       </div>
     </div>

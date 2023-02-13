@@ -55,11 +55,14 @@
   .mail {
     font-size: x-small;
   }
-  .icons {
-    size: 10px;
-  }
   .paypal_icons {
     margin: -1rem -1rem;
+  }
+  .footer_h4 {
+    font-size: large;
+  }
+  .footer p {
+    font-size: smaller;
   }
 }
 

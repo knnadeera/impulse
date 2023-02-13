@@ -7116,6 +7116,9 @@ fieldset:disabled .btn {
 .me-5 {
   margin-right: 3rem !important;
 }
+.me-6 {
+  margin-right: 2.5rem !important;
+}
 .me-auto {
   margin-right: auto !important;
 }
