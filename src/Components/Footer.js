@@ -52,11 +52,19 @@ const Footer = () => {
           <Row>
             <h4 className="footer_h4">Follow us</h4>
           </Row>
-          <div>
-            <i className="fa-brands fa-facebook-f icons"></i>
-            <i className="fa-brands fa-twitter icons"></i>
-            <i className="fa-brands fa-linkedin-in icons"></i>
-            <i className="fa-solid fa-rss icons"></i>
+          <div className="icons">
+            <div className="icon">
+              <i className="fa-brands fa-facebook-f "></i>
+            </div>
+            <div className="icon">
+              <i className="fa-brands fa-twitter"></i>
+            </div>
+            <div className="icon">
+              <i className="fa-brands fa-linkedin-in"></i>
+            </div>
+            <div className="icon">
+              <i className="fa-solid fa-rss"></i>
+            </div>
           </div>
         </Col>
       </Row>

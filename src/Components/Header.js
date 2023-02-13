@@ -9,20 +9,21 @@ const Header = () => {
         <Row>
           <Col md={3}>
             <p>
-              <i className="fa-solid fa-phone phone"></i>
+              <i className="fa-solid fa-phone phone small"></i>
               {"  "}
               01728 720184
             </p>
           </Col>
           <Col md={4}>
             <i className="fa-solid fa-envelope"></i>
-            <a href="mailto:hello@implusefaction.co.uk"> hello@implusefaction.co.uk</a>
+            <a href="mailto:hello@implusefaction.co.uk">
+              {" "}
+              hello@implusefaction.co.uk
+            </a>
           </Col>
           <Col>
-            <p>
-              <i className="fa-solid fa-location-dot"></i> 3-4 Market Hill,
-              Framlingham, Woodbridge IP139AN
-            </p>
+              <i className="fa-solid fa-location-dot"></i>
+              {' '}3-4 Market Hill, Framlingham, Woodbridge IP139AN
           </Col>
         </Row>
       </Container>

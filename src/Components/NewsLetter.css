@@ -17,34 +17,35 @@
   border: none;
   padding: 8px;
   width: 20rem;
-}
-.newsletter button {
-  border: 0.1px solid white;
+  border-radius: 5px;
 }
 
-.icon {
+.newsletter button {
+  background-color: rgba(145, 145, 145, 255);
+  border: 1px solid gray;
   border-radius: 5px;
-  padding: 10px;
-  background-color: rgba(173, 173, 173, 255);
-  color: white;
   width: 2.5rem;
+}
+
+.newsIcon {
+  color: white;
 }
 
 .input {
   border-radius: 5px;
-  border: 1px solid;
   margin-left: 10px;
+  background-color: white;
+  width: 20%;
 }
 
 @media (max-width: 768px) {
-  .newsletter{
+  .newsletter {
     flex-direction: column;
   }
-  
 }
 
 @media (max-width: 425px) {
-  .newsletter_input{
+  .newsletter_input {
     width: 200px;
-  
-}}
+  }
+}

@@ -46,12 +46,14 @@ const NavBar = () => {
               </LinkContainer>
               <LinkContainer to="/login">
                 <Nav.Link>
-                  <i className="fas fa-user user"></i>
+                  <div className="user">
+                  <i className="fas fa-user"></i></div>
                 </Nav.Link>
               </LinkContainer>
               <LinkContainer to="/cart">
-                <Nav.Link>
-                  <i className="fas fa-shopping-cart cart"></i>
+                <Nav.Link >
+                  <div className="cart">
+                  <i className="fas fa-shopping-cart"></i></div>
                 </Nav.Link>
               </LinkContainer>
             </Nav>

@@ -3,8 +3,9 @@
   justify-content: center;
   background-color: rgba(100, 100, 100, 255);
   color: white;
-  max-width: 100%;
-  height: 2rem;
+  max-width: 120%;
+  height: 1.7rem;
+  font-size: small;
 }
 
 .header a {
@@ -12,19 +13,15 @@
   text-decoration: none;
 }
 
+.header p{
+  width:300px;
+}
 .phone {
   color: rgba(100, 100, 100, 255);
   background-color: white;
   border: 1px solid white;
   border-radius: 50%;
   padding: 3px;
-}
-
-@media (max-width: 768px) {
-  .header{
-    flex-direction: column;
-    align-items: center;
-    height: 4%;
-  }
   
 }
+

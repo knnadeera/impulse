@@ -8,9 +8,9 @@ const NewsLetter = () => {
         Subscribe to our NewsLetter for all the latest news and special offers:
       </h6>
       <div className="input">
-        <input type="email" className="newsletter_input"/>
+        <input type="email" className="newsletter_input" />
         <button>
-          <i className="fa-sharp fa-solid fa-play icon"></i>
+          <i class="fa-sharp fa-solid fa-play newsIcon"></i>
         </button>
       </div>
     </div>

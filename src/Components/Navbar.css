@@ -8,22 +8,41 @@
 }
 
 .user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;
   background-color: gray;
-  border: 1px solid;
   padding: 6px;
   border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
 }
 
 .cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;
   background-color: gray;
-  border: 1px solid;
   padding: 6px;
   border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
 }
 
 .dropdown {
-    width: 40px;
+  width: 40px;
 }
 
+@media (max-width: 1025px) {
+  .nav {
+    font-size: smaller;
+  }
+}
+
+@media (max-width: 769px) {
+  .nav {
+    font-size: small;
+  }
+}

@@ -7,13 +7,14 @@ const Product = ({ product }) => {
   const price = `${product.price.toFixed(2)}`
   return (
     <div className="product">
-      <Card className="my-3 p-3">
+      <Card className="my-3 p-3 card">
         <Link to={`/product/${product.id}`}>
           <Card.Img
             src={product.image[0]}
-            height="200"
-            width="200"
+            height="150"
+            width="150"
             variant="top"
+            className="img"
           />
         </Link>
       </Card>

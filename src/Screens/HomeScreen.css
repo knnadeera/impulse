@@ -1,5 +1,9 @@
 .product {
-    margin-left: auto;
     margin-top: 2rem;
     color: gray;
+}
+
+.carousel{
+    justify-content: center;
+    padding: 0 2rem;
 }
